@@ -1,0 +1,28 @@
+nav > ul{
+  display: flex;
+}
+nav li{
+  list-style: none;
+  border-right: 10px;
+  padding: 5px;
+}
+nav li:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  color: aliceblue;
+}
+/* Nasted Menu Style */
+nav li .dropdown{
+  display: none;
+  position: absolute;
+  background-color: aliceblue;
+  padding: 5px;
+}
+nav li:hover > .dropdown{
+  display: block;
+}

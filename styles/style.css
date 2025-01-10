@@ -2,14 +2,6 @@ footer{
   text-align: center;
 }
 
-nav > ul > li {
-  display: inline;
-  margin-left: 20px;
-}
-
-nav li > a{
-  text-decoration: none;
-}
 
 #video01{
   width: 50%;
@@ -34,3 +26,4 @@ tfoot{
   color: blue;
   text-decoration: underline;
 }
+

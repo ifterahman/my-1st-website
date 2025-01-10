@@ -6,13 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>This is index html page</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/nav.css">
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="home.html">Home</a></li>
+        <li>
+          <a href="home.html">Home</a>
+          <ul class="dropdown">
+            <li ><a href="home.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="pricing.html">Pricing</a></li>
       </ul>
@@ -96,28 +104,28 @@
           <label for="custom-web-devlopment">
             <input type="radio" name="service" id="custom-web-devlopment">Custom Web Development
           </label>
-          </fieldset>
-          <fieldset>
-            <legend>At which payment getaway you can pay?</legend>
-            <label for="payment-getway">
-              <input type="checkbox" name="payment-getway" id="bKash">bKash
-            </label>
-            <label for="Naagd">
-              <input type="checkbox" name="payment" id="Naagd">Naagd
-            </label>
-            <label for="Rocket">
-              <input type="checkbox" name="payment" id="Rocket">Rocket
-            </label>
-            <label for="Upay">
-              <input type="checkbox" name="payment" id="Upay">Upay
-            </label>
-          </fieldset>
-          <fieldset>
-            <legend>Special Instruction</legend>
-            <textarea name="special-instruction" id="special-instruction" cols="40" rows="5"></textarea>
-          </fieldset>
-          <input type="reset" value="Reset">
-          <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+          <legend>At which payment getaway you can pay?</legend>
+          <label for="payment-getway">
+            <input type="checkbox" name="payment-getway" id="bKash">bKash
+          </label>
+          <label for="Naagd">
+            <input type="checkbox" name="payment" id="Naagd">Naagd
+          </label>
+          <label for="Rocket">
+            <input type="checkbox" name="payment" id="Rocket">Rocket
+          </label>
+          <label for="Upay">
+            <input type="checkbox" name="payment" id="Upay">Upay
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Special Instruction</legend>
+          <textarea name="special-instruction" id="special-instruction" cols="40" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
       </form>
     </div>
     <div>
@@ -173,6 +181,8 @@
         </tfoot>
       </table>
     </div>
+
+    
   </main>
   <footer>
     <p><small> &copy | 2024 | All rights reserved</small></p>
