@@ -10,3 +10,8 @@ nav > ul > li {
 nav li > a{
   text-decoration: none;
 }
+
+#video01{
+  width: 50%;
+  display: inline-block;
+}
